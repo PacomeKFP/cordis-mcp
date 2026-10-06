@@ -85,3 +85,5 @@ npm pack --dry-run
 ```
 
 Références : [MCP et Codex](https://learn.chatgpt.com/docs/extend/mcp?surface=cli), [serveur personnalisé dans ChatGPT](https://developers.openai.com/api/docs/guides/custom-mcp-server), [OAuth des plugins](https://developers.openai.com/plugins/build/auth).
+
+Vérifications effectuées : [validation du paquet et du service publié](docs/VALIDATION.md).
