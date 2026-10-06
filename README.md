@@ -2,6 +2,8 @@
 
 Connecter les mêmes notes à Codex, ChatGPT et à tout agent MCP. Le serveur HTTPS reste hébergé sur Modal ; le paquet stdio accède à la même API. Aucune note ni clé privée ne se trouve dans ce dépôt.
 
+Dépôt public : [PacomeKFP/cordis-mcp](https://github.com/PacomeKFP/cordis-mcp).
+
 ## Codex
 
 ```powershell
@@ -15,6 +17,13 @@ Le dépôt contient aussi un marketplace dans `.agents/plugins/marketplace.json`
 
 ```powershell
 codex plugin marketplace add .
+codex plugin add cordis@cordis-agents
+```
+
+Sur une autre machine, sans clonage préalable :
+
+```powershell
+codex plugin marketplace add PacomeKFP/cordis-mcp
 codex plugin add cordis@cordis-agents
 ```
 
@@ -40,6 +49,8 @@ $env:CORDIS_URL='https://pacomekengafe--cordis-web.modal.run'
 $env:CORDIS_TOKEN='<clé révocable créée dans les réglages Cordis>'
 node bin/cordis-mcp.mjs
 ```
+
+On peut aussi lancer directement le paquet depuis GitHub avec `npx -y github:PacomeKFP/cordis-mcp`, après avoir défini les variables d’environnement ci-dessus. Ce paquet n’est pas publié sur le registre npm.
 
 Configuration stdio générique, à adapter au gestionnaire de secrets de son agent :
 
