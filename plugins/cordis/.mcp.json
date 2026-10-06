@@ -1,0 +1,3 @@
+{
+  "mcpServers": { "cordis": { "type": "http", "url": "https://pacomekengafe--cordis-web.modal.run/mcp" } }
+}

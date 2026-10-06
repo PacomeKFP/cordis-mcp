@@ -1,0 +1,17 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "cordis",
+  "version": "0.3.0",
+  "description": "Search and edit private Cordis notes, collections and media through a bounded MCP interface.",
+  "author": { "name": "Pacome K." },
+  "extensions": { "com.openai": { "interface": {
+    "displayName": "Cordis",
+    "shortDescription": "Vos notes avec vos agents",
+    "longDescription": "Search private notes, read bounded Markdown, edit with revision checks, work with collections and media, and transcribe audio with explicit authorization. Connect your Cordis account with OAuth and revoke the connection in Cordis settings.",
+    "developerName": "Pacome K.",
+    "category": "Productivity",
+    "logo": "./assets/icon.svg",
+    "composerIcon": "./assets/icon.svg",
+    "defaultPrompt": "Retrouve mes notes dans Cordis et aide-moi à les organiser."
+  } } }
+}

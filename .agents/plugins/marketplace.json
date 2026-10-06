@@ -1,0 +1,5 @@
+{
+  "name": "cordis-agents",
+  "owner": { "name": "Pacome K." },
+  "plugins": [{ "name": "cordis", "source": "./plugins/cordis", "description": "Private Cordis notes, media and transcription via MCP" }]
+}

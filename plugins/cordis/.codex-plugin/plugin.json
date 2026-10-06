@@ -1,0 +1,15 @@
+{
+  "name": "cordis",
+  "version": "0.3.0",
+  "description": "Search and edit private Cordis notes, collections and media with OAuth.",
+  "author": { "name": "Pacome K." },
+  "interface": {
+    "displayName": "Cordis",
+    "shortDescription": "Vos notes avec vos agents",
+    "longDescription": "Connect Cordis notes, collections and media with OAuth. Bounded reads, revision-aware edits and revocable access.",
+    "developerName": "Pacome K.",
+    "category": "Productivity",
+    "logo": "./assets/icon.svg"
+  },
+  "mcpServers": "./.mcp.json"
+}
